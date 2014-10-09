@@ -9,7 +9,12 @@
  *
  */
 #include "robot.h"
+<<<<<<< HEAD
 #include "corbettn17.h"
+=======
+#include "chener16.h"
+
+>>>>>>> 69d7c9a5d0c967191e7c2df876d536fabb2b3a91
 /**
  * main()
  *
@@ -33,6 +38,8 @@ int main(int argc, const char * argv[])
   username();
 
   robPrintAscii();
+
+  chener16();
 
   robPrintMessage(num);
 
