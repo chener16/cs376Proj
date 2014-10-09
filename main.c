@@ -9,7 +9,7 @@
  *
  */
 #include "robot.h"
-
+#include "corbettn17.h"
 /**
  * main()
  *
@@ -29,6 +29,8 @@ int main(int argc, const char * argv[])
 
   // Convert the command-line argument to a number.
   int num = atoi(argv[1]);
+
+  username();
 
   robPrintAscii();
 
