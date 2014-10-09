@@ -9,6 +9,7 @@
  *
  */
 #include "robot.h"
+#include "chener16.h"
 
 /**
  * main()
@@ -31,6 +32,8 @@ int main(int argc, const char * argv[])
   int num = atoi(argv[1]);
 
   robPrintAscii();
+
+  chener16();
 
   robPrintMessage(num);
 
