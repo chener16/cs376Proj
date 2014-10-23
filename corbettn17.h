@@ -1,1 +1,1 @@
-extern voidusername();
+extern void username();
