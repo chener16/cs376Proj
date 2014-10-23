@@ -34,7 +34,7 @@ void robPrintMessage(int num)
       printf("really ");
     }
 
-  printf("loves robots!\n");
+  printf("love robots!\n");
 
   return;
 }
@@ -45,9 +45,27 @@ void robPrintMessage(int num)
  */
 void robPrintAscii(void)
 {
-  printf("    i_i    \n"
-	 "   [x_x]   \n"
-	 "  /|___|\\  \n"
-         "   d   b   "); 
+  printf("     i_i     \n"
+         "    [@_@] \n"
+         "   /|___|\\ \n" 
+         "    d   b \n"
+            
+         "              i_i     \n"
+         "             [@_@] \n"
+         "            /|___|\\ \n"
+         "             d   b \n"
+
+         "                           i_i     \n"
+         "                          [@_@] \n"
+         "                         /|___|\\ \n"
+         "                          d   b \n");  
+                   
+
+
+
+
+
+
+
 
 }
