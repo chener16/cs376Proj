@@ -27,7 +27,14 @@
 int main(int argc, const char * argv[])
 {
   // Check the command line arguments.
-  if(argc != 2) {
+  if(argc == 1)
+    {
+      robPrintAscii();
+      return;
+    }
+
+  
+  if(argc != 2 && argc != 1) {
     printf("usage: %s <number> \n", argv[0]);
     return -1;
   }

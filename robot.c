@@ -47,6 +47,7 @@ void robPrintMessage(int num)
  */
 void robPrintAscii(void)
 {
+<<<<<<< HEAD
   printf("     i_i     \n"
          "    [@_@] \n"
          "   /|___|\\ \n" 
@@ -70,4 +71,11 @@ void robPrintAscii(void)
 
 
 
+=======
+  printf("    i_i    \n"
+	 "   [x_x]   \n"
+	 "  /|___|\\  \n"
+         "   d   b   "); 
+  
+>>>>>>> 91d6f71cc32e166f2a7f97b3c0462f8e110e854f
 }
